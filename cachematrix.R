@@ -5,7 +5,7 @@
 #' @param x an invertible matrix
 #' examples
 #' x = makeCacheMatrix(matrix(rnorm(4), 2, 2))
-#' x$set(matrix(rnorm(16), 4, 4))
+#' x$set(matrix(rnorm(9), 3, 3))
 
 
 makeCacheMatrix <- function(x = matrix()) {
